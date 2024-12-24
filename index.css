@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #222;
+  margin: none;
+}
+
+h3 {
+  font-family: Doppio One, Roboto, sans-serif;
+  text-align: center;
+  color: #ddf;
+  background-color: #333;
+  box-shadow: 0px 0px 20px #000;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+h3#currentKey {
+  width: 70px;
+  height: 70px;
+  font-size: 50px;
+}
+
+button {
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+  margin-top: 30px;
+  background: linear-gradient(90deg, #00A, black);
+  border-style: none;
+  box-shadow: 0px 0px 10px #fff;
+  color: beige;
+  width: 100px;
+  height: 65px;
+  text-align: center;
+  border-radius: 7px;
+  font-size: 1.5rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+canvas {
+  width: 700px;
+  height: 350px;
+  background-color: grey;
+  margin-top: 20px;
+  border-radius: 15px;
+}
